@@ -1,0 +1,43 @@
+body{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+#title{
+    text-align: center;
+    font-size: 45px;
+}
+main{
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    overflow: hidden;
+}
+div{
+    height: 400px;
+    width: 300px;
+    border: 5px solid white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+div:nth-child(1){
+    background-color: tomato;
+}
+div:nth-child(2){
+    background-color: teal;
+}
+div:nth-child(3){
+    background-color: burlywood;
+}
+div:nth-child(4){
+    background-color: thistle;
+}
+#colorcode{
+    margin-top: 30px;
+    margin-left: 0px;
+    height: 100px;
+    width: 290px;
+    background-color: white;
+}
