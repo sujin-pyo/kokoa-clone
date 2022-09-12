@@ -1,43 +1,43 @@
-body{
-    font-family: "Times New Roman";
-    font-weight: bold;
-    height: 100vh;
-    background-color: whitesmoke;
+body {
+  font-family: "Times New Roman";
+  font-weight: bold;
+  background-color: whitesmoke;
 }
-#title{
-    text-align: center;
-    font-size: 45px;
+#title {
+  text-align: center;
+  font-size: 45px;
 }
-main{
-    margin: 0 auto;
-    padding: 0;
-    width: 700px;
-    overflow: hidden;
+main {
+  min-height: 100%;
+  display: flex;
+  width: 700px;
+  height: 900px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-div{
-    height: 400px;
-    width: 300px;
-    border: 5px solid white;
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
+div {
+  height: 400px;
+  width: 300px;
+  border: 5px solid white;
+  margin: 20px;
+  flex-basis: 50%;
+
 }
-div:nth-child(1){
-    background-color: tomato;
+div:nth-child(1) {
+  background-color: tomato;
 }
-div:nth-child(2){
-    background-color: teal;
+div:nth-child(2) {
+  background-color: teal;
 }
-div:nth-child(3){
-    background-color: burlywood;
+div:nth-child(3) {
+  background-color: burlywood;
 }
-div:nth-child(4){
-    background-color: thistle;
+div:nth-child(4) {
+  background-color: thistle;
 }
-#colorcode{
-    margin-top: 30px;
-    margin-left: 0px;
-    height: 100px;
-    width: 290px;
-    background-color: white;
+#colorcode {
+  height: 100px;
+  width: 290px;
+  background-color: white;
+  margin-left: 0;
 }
