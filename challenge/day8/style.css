@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: mediumturquoise;
+}
+@keyframes superSexyCoinFlip {
+    from{
+        transform: rotate(0) ;
+    }
+    to{
+        transform: rotate(180deg) translateX(-200px);
+    }
+}
+@keyframes superSexy {
+    from{
+        transform: rotate(0) ;
+    }
+    to{
+        transform: rotate(180deg) translateX(200px);
+    }
+}
+@keyframes identifier {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(50px) scale(1, 1.5);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    margin: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+#moving{
+    animation: superSexyCoinFlip 1s ease infinite; 
+}
+#moving2{
+    animation: superSexy 1s ease infinite; 
+}
+.bar{
+    width: 20px;
+    height: 70px;
+    margin: 5px;
+    background-color: white;
+}
+
+#one{
+    animation: identifier 0.5s ease infinite;    
+}
+#two{
+    animation: identifier 1s ease infinite;    
+}
+#three{
+    animation: identifier 1.5s ease infinite;    
+}
+#four{
+    animation: identifier 2s ease infinite;    
+}
+#five{
+    animation: identifier 2.5s ease infinite;    
+}
