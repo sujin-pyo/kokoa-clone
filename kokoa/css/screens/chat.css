@@ -125,6 +125,7 @@
     border: var(--main-border);
     border-radius: 25px;
     box-sizing: border-box;
+    transition: all .3s ease-in-out;
 }
 .reply__column:first-child{
     width: 10%;
@@ -156,4 +157,24 @@
 }
 .reply__column button i{
     opacity: 1;
+}
+/* .reply:focus-within .reply__column:first-child{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+} */
+.reply .reply__column:first-child,
+.reply .fa-smile-wink,
+.reply button{
+    transition: opacity 0.3s ease-in-out;
+}
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button{
+    opacity: 0;
+}
+/* reply input에 transition이 있어서 가능 */
+.reply:focus-within input{
+    width: 98vh;
+    transform: translateX(-13%);
 }
