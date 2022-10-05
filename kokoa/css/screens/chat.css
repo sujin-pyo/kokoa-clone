@@ -113,7 +113,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 25px;
+    padding: 5px 5px;
     box-sizing: border-box;
 }
 .reply i{
@@ -175,6 +175,6 @@
 }
 /* reply input에 transition이 있어서 가능 */
 .reply:focus-within input{
-    width: 98vh;
-    transform: translateX(-13%);
+    width: 60vh;
+    transform: translateX(-10%);
 }
